@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "posts",
+  "info": {
+    "singularName": "post",
+    "pluralName": "posts",
+    "displayName": "Post"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Zdjecie": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Data": {
+      "type": "date",
+      "required": true,
+      "unique": false
+    },
+    "Autor": {
+      "type": "string",
+      "required": true
+    },
+    "Tytul": {
+      "type": "string",
+      "required": true
+    },
+    "Opis": {
+      "type": "text"
+    }
+  }
+}

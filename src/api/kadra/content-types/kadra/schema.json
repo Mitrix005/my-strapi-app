@@ -1,0 +1,69 @@
+{
+  "kind": "collectionType",
+  "collectionName": "kadras",
+  "info": {
+    "singularName": "kadra",
+    "pluralName": "kadras",
+    "displayName": "Kadra"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ImieNazwisko": {
+      "type": "string"
+    },
+    "Przedmiot": {
+      "type": "enumeration",
+      "enum": [
+        "Biologia",
+        "Biznes i zarządzanie",
+        "Chemia",
+        "Doradztwo zawodowe",
+        "Edukacja dla bezpieczeństwa",
+        "Edukacja obywatelska",
+        "Edukacja zdrowotna",
+        "Filozofia",
+        "Fizyka",
+        "Geografia",
+        "Historia",
+        "Informatyka",
+        "Język angielski",
+        "Język francuski",
+        "Język hiszpański",
+        "Język łaciński",
+        "Język niemiecki",
+        "Język polski",
+        "Język rosyjski",
+        "Matematyka",
+        "Muzyka",
+        "Religia",
+        "Wiedza o społeczeństwie",
+        "Wychowanie fizyczne"
+      ]
+    },
+    "Funkcja": {
+      "type": "enumeration",
+      "enum": [
+        "Dyrektor",
+        "Wicedyrektor",
+        "Nauczyciel",
+        "Pedagog specjalny",
+        "Pedagog szkolny",
+        "Psycholog szkolny",
+        "Biblioteka"
+      ]
+    },
+    "Zdjecie": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
